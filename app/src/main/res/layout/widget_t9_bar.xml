@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_bar_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg_glass"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingHorizontal="14dp"
+    android:paddingVertical="10dp">
+
+    <!-- Search Icon -->
+    <TextView
+        android:id="@+id/widget_bar_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="🔍"
+        android:textSize="16sp" />
+
+    <!-- Query Text & Predictive Match Info -->
+    <LinearLayout
+        android:id="@+id/widget_bar_text_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/widget_bar_query"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="T9 Phone Search"
+            android:textColor="#F8FAFC"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/widget_bar_preview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search contacts, apps, files &amp; settings"
+            android:textColor="#94A3B8"
+            android:textSize="10sp"
+            android:maxLines="1"
+            android:ellipsize="end" />
+    </LinearLayout>
+
+    <!-- Quick Backspace -->
+    <TextView
+        android:id="@+id/widget_bar_backspace"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:text="⌫"
+        android:textColor="#CBD5E1"
+        android:textSize="18sp"
+        android:background="@drawable/widget_key_bg"
+        android:layout_marginEnd="6dp" />
+
+    <!-- Launch Action Button -->
+    <TextView
+        android:id="@+id/widget_bar_launch"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:text="↵"
+        android:textColor="#38BDF8"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/widget_key_bg" />
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">T9 Search</string>
+    <string name="widget_name">T9 Quick Search</string>
+    <string name="widget_description">Search apps, contacts, files, and settings using T9</string>
+    <string name="widget_pad_name">T9 Search Pad (4x3)</string>
+    <string name="widget_pad_description">Interactive 12-key T9 dialer widget for your home screen</string>
+    <string name="widget_bar_name">T9 Search Bar (4x1)</string>
+    <string name="widget_bar_description">Compact floating T9 search bar for anywhere on your home screen</string>
+    <string name="widget_studio_title">T9 Widget Studio</string>
+    <string name="search_hint">Type T9 digits (e.g. 4664 for GOOG)…</string>
+</resources>

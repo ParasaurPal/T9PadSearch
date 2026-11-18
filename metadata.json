@@ -1,0 +1,6 @@
+{
+  "name": "T9 Search",
+  "description": "Fast T9 phone search widget to add anywhere on your home screen with predictive text across contacts, apps, files, and settings in customizable glass, opaque, and material themes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
